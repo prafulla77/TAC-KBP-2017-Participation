@@ -1,0 +1,45 @@
+Stanford Parse output using the commonad 
+java -cp "*" -Xmx2g edu.stanford.nlp.pipeline.StanfordCoreNLP -annotators tokenize,cleanxml,ssplit,pos,lemma,ner,parse,dcoref 
+
+File Format:
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <docId>ENG_DF_000354_20150626_G00A04NA1</docId>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Recall</word>
+            <lemma>recall</lemma>
+            <CharacterOffsetBegin>55</CharacterOffsetBegin>
+            <CharacterOffsetEnd>61</CharacterOffsetEnd>
+            <POS>VB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          
+     -
+          
+     -     
+          
+       <coreference>
+        <mention representative="true">
+          <sentence>18</sentence>
+          <start>3</start>
+          <end>5</end>
+          <head>4</head>
+          <text>a call</text>
+        </mention>
+        <mention>
+          <sentence>19</sentence>
+          <start>1</start>
+          <end>2</end>
+          <head>1</head>
+          <text>It</text>
+        </mention>
+      </coreference>
+    </coreference>
+  </document>
+</root>
