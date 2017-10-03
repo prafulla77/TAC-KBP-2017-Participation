@@ -213,7 +213,7 @@ def _train_test():
     ev_id = 0
     all_events = OD()
     for i in range(len(filenames)):
-        if type_predict[i][18] > 9.5: continue #2.95
+        if type_predict[i][18] > 2.85: continue
         else: type_predict[i][18] = 0.0
         if filenames[i].filename[:-4] != file:
             file = filenames[i].filename[:-4]
@@ -230,7 +230,7 @@ def _train_test():
                 f.write('#EndOfDocument\n')
                 all_events = OD()
             f.write('#BeginOfDocument '+file+'\n')
-        if predicted[i][-1] < 3.75: #6.1
+        if predicted[i][-1] < 7.5:
             predicted[i][-1] = 0
         ind = max((v, i) for i, v in enumerate(predicted[i]))[1]
         type_ind = max((v, i) for i, v in enumerate(type_predict[i]))[1]
