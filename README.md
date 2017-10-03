@@ -7,31 +7,19 @@ Replicating our results submitted to the TAC KBP 2017 Event Nugget Detection and
 2) Download pretrained models from https://drive.google.com/open?id=0B1ihlo1F9aKOdF9nYWlLWWkzTHc and store them in codes/type_models and codes/realis_models 
 3) Run ensemble_classifier_test.py
 ===================================================================================
-
 =======Final Mention Detection Results=========
-
                           	     Micro Average	     Macro Average
                                  
                 Attributes	Prec  	Rec  	F1   	Prec  	Rec  	F1   
-                
-                     plain	56.97	53.96	55.42	53.86	52.23	53.03
-                     
-              mention_type	46.02	43.58	44.77	42.57	41.63	42.09
-              
-             realis_status	43.27	40.98	42.09	40.46	40.04	40.24
-             
-mention_type+realis_status	34.32	32.50	33.39	31.22	31.12	31.17
+                     plain	52.38	60.48	56.14	49.82	58.97	54.01
+              mention_type	41.50	47.92	44.48	38.80	45.93	42.06
+             realis_status	39.74	45.88	42.59	37.39	44.97	40.83
+mention_type+realis_status	30.79	35.55	33.00	28.27	34.05	30.89
 
 =======Final Mention Coreference Results=========
-
-Metric : bcub	Score	35.36
-
-Metric : ceafe	Score	33.88
-
-Metric : ceafm	Score	34.88 *
-
-Metric : muc	Score	19.36
-
-Metric : blanc	Score	19.34
-
-Overall Average CoNLL score	26.99
+Metric : bcub	Score	36.62
+Metric : ceafe	Score	35.50
+Metric : ceafm	Score	35.90 *
+Metric : muc	Score	17.62
+Metric : blanc	Score	18.77
+Overall Average CoNLL score	27.13
