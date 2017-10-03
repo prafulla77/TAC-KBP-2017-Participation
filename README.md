@@ -7,6 +7,8 @@ Replicating our results submitted to the TAC KBP 2017 Event Nugget Detection and
 2) Download pretrained models from https://drive.google.com/open?id=0B1ihlo1F9aKOdF9nYWlLWWkzTHc and store them in codes/type_models and codes/realis_models 
 3) Run ensemble_classifier_test.py
 ===================================================================================
+
+
 ========Mention Type Results==========
                         Type	Prec	Rec	F1	#Gold	#Sys
               conflictattack	0.29	0.27	0.28	499	468
