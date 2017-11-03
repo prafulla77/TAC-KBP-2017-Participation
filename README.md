@@ -1,6 +1,15 @@
 # TAC-KBP-2017-Participation
 Event Nuggest Detection and Coreference Resolution
 
+In case you use this code, please cite the following paper:
+
+@inproceedings{nguyen2016new,
+  title={TAMU at KBP 2017: Event Nugget Detection and Coreference Resolution},
+  author={Choubey, Prafulla Kumar and Huang, Ruihong},
+  booktitle = {Text Analysis Conference (TAC 2017)},
+  year = {2017}
+}
+
 Replicating our results submitted to the TAC KBP 2017 Event Nugget Detection and Coreference Evaluation.
 =======================================================================================================
 1) Store all files (coreNLP output) in data/2017/out folder.
