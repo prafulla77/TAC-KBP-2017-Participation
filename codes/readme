@@ -1,1 +1,6 @@
+'../vocab/2017_.pkl': It is recommended to create dictionary of word vectors for your dataset using Glove.840B.300d
+format: {'was':[1.0, -0.9,. ..], 'there':[...], .... }
+
+You can download these embeddings from https://drive.google.com/file/d/1KT-be3zTNBIXMRggdRcyn5ZfuoD2Ikj4/view?usp=sharing
+
 
