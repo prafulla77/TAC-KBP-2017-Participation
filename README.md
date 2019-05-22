@@ -17,7 +17,9 @@ Replicating our results submitted to the TAC KBP 2017 Event Nugget Detection and
 1) Store all files (coreNLP output) in data/2017/out folder.
 2) Download pretrained models from https://drive.google.com/open?id=0B1ihlo1F9aKOdF9nYWlLWWkzTHc and store them in codes/type_models and codes/realis_models 
 3) Download vocab files from https://drive.google.com/file/d/1KT-be3zTNBIXMRggdRcyn5ZfuoD2Ikj4/view
-Note: you may prefer to update vocab files (GloVE 300-d)
+
+### Note: you may prefer to update vocab files (glove.840B.300d.txt) with the words in your corpus.
+
 4) Run ensemble_classifier_test.py
 ===================================================================================
 # Result on KBP 2016 Evaluation data
